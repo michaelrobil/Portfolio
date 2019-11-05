@@ -100,7 +100,7 @@ img {
     }
 
     
-    .container {
+    .container-fluid {
         width: 95% !important;
         margin-left: 10px !important;
         position: relative;
