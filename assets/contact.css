@@ -81,9 +81,6 @@ form {
         text-align: center !important;
 
     }
-    .navbar-brand {
-        width: 30% !important;
-    }
     .container-fluid {
         width: 90% !important;
     }
@@ -96,11 +93,6 @@ form {
         width: 100% !important;
         margin: 0px 0px 0px 0px !important;
         text-align: center;
-    }
-    .nav-link {
-        text-align: center;
-        display: inline !important;
-        padding: 5px 5px 5px 5px !important;
     }
     .navbar-nav {
         margin-left: 0%;
