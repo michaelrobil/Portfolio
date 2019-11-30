@@ -1,33 +1,39 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     background-color: rgb(177, 177, 177) !important;
 }
+
 .navbar {
     background-color: white !important;
     padding: 0px 0px 0px 0px !important;
     width: 100%;
 }
+
 .navbar-nav {
     text-align: right;
     clear: both;
     margin-left: 60%;
     margin-right: 0px;
 }
+
 .nav-link .navbar {
     color: rgb(194, 188, 188) !important;
-
 }
+
 .navbar-brand {
     font-size: 30px !important;
     font-weight: 700;
-
     background-color: #009999;
     color: white !important;
     padding: 20px 20px !important;
     margin: 0px 0px 0px 30px;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
 }
+
 .container-fluid {
     overflow: auto;
     line-height: 22px;
@@ -38,7 +44,10 @@ body {
     width: 60% !important;
     margin: 30px 200px 50px 30px;
     background-color: white;
-    }
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #009999;
@@ -46,16 +55,22 @@ h1 {
     font-weight: 600;
     padding: 0px 20px 10px 0px;
     margin: 5px 5px 20px 10px;
-    border-bottom:  rgb(194, 188, 188) 2px solid;
+    border-bottom: rgb(194, 188, 188) 2px solid;
 }
+
 img {
     max-width: 100%;
     height: 100%;
+    margin-bottom: 15px;
 }
-.col-md-8, .col-md-4, .col-md-12 {
+
+.col-md-8,
+.col-md-4,
+.col-md-12 {
     font-size: 18px;
     margin: auto;
 }
+
 .footer {
     overflow: hidden;
     clear: both;
@@ -67,6 +82,7 @@ img {
     background-color: grey;
     color: white;
 }
+
 @media screen and (max-width: 768px) and ( min-width: 480px) {
     .navbar {
         width: 100%;
@@ -77,10 +93,8 @@ img {
     .container-fluid {
         width: 90% !important;
     }
-    
-
-
 }
+
 @media screen and (max-width: 576px) {
     .navbar {
         width: 100%;
@@ -90,7 +104,6 @@ img {
         margin: 0px 0px 0px 0px !important;
         text-align: center;
     }
-
     .navbar-nav {
         margin-left: 0%;
         text-align: center;
@@ -98,8 +111,6 @@ img {
         width: 33.33%;
         display: inline-block;
     }
-
-    
     .container-fluid {
         width: 95% !important;
         margin-left: 10px !important;
